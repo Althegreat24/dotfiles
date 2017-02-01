@@ -1,6 +1,6 @@
 [user]
-	name = Jyrki Lilja
-	email = jyrki@jlilja.net
+	name = Allan Haapalainen
+	email = allan.haapalainen@pp.inet.fi
 	signingkey = 0x41651A50ECEF33D8
 [color]
 	diff = auto
@@ -10,7 +10,7 @@
 	autocrlf = input
 	savecrlf = true
 	editor = vim
-	excludesfile = /Users/jyrki/.gitignore_global
+	excludesfile = /Users/allan.haapalainen/.gitignore_global
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [push]
 	default = simple

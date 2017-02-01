@@ -115,24 +115,6 @@ alias upgrade_vim="rbenv local system && brew unlink vim && brew install vim --o
 
 # Thunderbird
 alias thunderbird="open -a Thunderbird"
-
-alias jirc="ssh jyrkililja@server1.jlilja.net -t 'screen -DRUS jyrkililja-irssi'"
-alias jln1="ssh root@server1.jlilja.net -t 'byobu'"
-alias hp1="ssh jyrkililja@hp1 -t 'tmux attach || tmux'"
-
-# Focus Flow {
-    alias backup1.focusflow.net="ssh root@backup1.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias pfactori="ssh root@164.215.38.8 -t 'screen -DRUS jyrkililja'"
-    alias dev1="ssh root@dev1.thefactori.com -t 'screen -DRUS jyrkililja'"
-    alias flow1="ssh root@server.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flow2="ssh root@server.focusflow2.net -t 'screen -DRUS jyrkililja'"
-    alias flow3="ssh root@server3.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flow4="ssh root@server4.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flowns1="ssh root@77.86.176.114 -t 'screen -DRUS jyrkililja'"
-    alias flowns2="ssh root@77.86.176.115 -t 'screen -DRUS jyrkililja'"
-    alias aa1="ssh root@aa1.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias git.focusflow.net="ssh root@git.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias mhyp.focusflow.net="ssh root@mhyp.focusflow.net -t 'screen -DRUS jyrkililja'"
 # }
 
 alias weather="curl wttr.in/Rovaniemi"
